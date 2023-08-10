@@ -1,0 +1,181 @@
+body{
+    background: white;
+    margin: 0;
+    padding: 0;
+}
+h1{
+    font-size: 4rem;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 251, 240, 0.774),rgb(255, 246, 224));
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   text-shadow: .5px .5px 1px rgb(255, 255, 255), 0 0 .5em rgb(255, 255, 255), 0 0 0.1em rgb(255, 196, 0);
+}
+h2{
+    font-size: 3rem;
+    background: -webkit-linear-gradient(rgb(255, 255, 255), rgba(255, 251, 240, 0.774),rgb(255, 246, 224));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-shadow: .5px .5px 1px rgb(255, 255, 255), 0 0 .5em rgb(255, 255, 255), 0 0 0.1em rgb(255, 196, 0);
+}
+h3{
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+}
+p{
+    font-weight: bolder;
+    font-size: 1rem;
+    color: white;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    gap: 2rem;
+    height: 90%;
+    width: 90%;
+    background-image: url("assets/image/background-img.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:cover;
+    border-radius: .5rem;
+}
+.machine{
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+    width: 40%;
+    background: rgba(255, 166, 0, 0.384);
+    border-radius: 1rem;
+}
+.screen{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    height: 20%;
+    width: 80%;
+    background: rgba(254, 201, 73, 0.5);
+    border-radius: 1rem;
+}
+.calculator{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 50%;
+    width: 80%;
+    background: rgba(254, 201, 73, 0.5);
+    border-radius: 1rem;
+}
+.list-tag{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    height: 80%;
+    width: 40%;
+    border-radius: 1rem;
+}
+.list-input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: center;
+    gap:1rem;
+    height: 80%;
+    width: 40%;
+    border-radius: 1rem;
+}
+input[type=text] {
+    font-size: 1rem;
+    font-family: 'Hind', sans-serif;
+    border: none;
+    border-bottom: 0.2px solid whitesmoke;
+    border-radius: 1px;
+    resize: none;
+    background-color: transparent;
+    color: white;
+}
+input[type=text]:focus{
+    outline: none;
+}
+input{
+    text-align: center;
+}
+input:focus::placeholder {
+    color: transparent;
+  }
+::placeholder {
+    font-weight: lighter;
+    color: rgba(255, 255, 255, 0.568);
+    text-align: center;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 10%;
+    width: 80%;
+    border-radius: 1rem;
+}
+.button-calc{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(88, 62, 0);
+    border-radius: 10px;
+    background-color: rgba(254, 201, 73);
+    background-image: linear-gradient(to top left, rgba(163, 114, 0, 0.5), rgba(114, 80, 0, 0.5)) 30%, rgba(0, 0, 0, 0);
+    box-shadow: inset 2px 2px 3px rgba(254, 201, 73, 0.5), inset -2px -2px 3px rgba(190, 133, 0, 0.973);
+}
+.button-calc:active{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 1px rgb(88, 62, 0);
+    border-radius: 10px;
+    background-color: rgb(253, 177, 0);
+    background-image: linear-gradient(to top left, rgba(163, 114, 0, 0.5), rgba(114, 80, 0, 0.5)) 30%, rgba(0, 0, 0, 0);
+    box-shadow: inset -2px -2px 3px rgba(190, 133, 0, 0.973),inset 2px 2px 3px rgba(254, 201, 73, 0.5);
+
+
+}
+  
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    height: 80%;
+    width: 40%;
+    background: rgba(255, 166, 0, 0.384);
+    color: white;
+    border-radius: 1rem;
+}
