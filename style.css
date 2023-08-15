@@ -43,7 +43,7 @@ p{
     gap: 2rem;
     height: 90%;
     width: 90%;
-    background-image: url("assets/image/background-img.jpg");
+    background: rgb(255, 233, 106);;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:cover;
